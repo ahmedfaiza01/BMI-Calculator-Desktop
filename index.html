@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced BMI Calculator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>BMI Calculator</h1>
+
+    <input type="number" id="age" placeholder="Age">
+    <select id="gender">
+      <option value="" disabled selected>Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <input type="number" id="height" placeholder="Height (cm)">
+
+    <div class="button-group">
+      <button onclick="calculateBMI()">Calculate</button>
+      <button onclick="resetForm()">Reset</button>
+    </div>
+
+    <p id="result"></p>
+    <p id="tips"></p>
+
+    <h2>BMI Categories</h2>
+    <table>
+      <tr><th>Category</th><th>BMI Range</th></tr>
+      <tr><td>Underweight</td><td>Less than 18.5</td></tr>
+      <tr><td>Normal</td><td>18.5 – 24.9</td></tr>
+      <tr><td>Overweight</td><td>25 – 29.9</td></tr>
+      <tr><td>Obese</td><td>30 or more</td></tr>
+    </table>
+
+    <button onclick="toggleTheme()" class="theme-toggle">Toggle Theme</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -77,11 +77,13 @@ Navigate to the project folder and open it in Visual Studio Code.
 🟣 Phase 4 – Final UI polish and animation
 
 ## 📸 Screenshots
-🌞 Light Mode
+![Screenshot](Screenshot.png)
 
-🌙 Dark Mode
+### 🌞 Light Mode
+![Dark Screenshot](Dark_Mode.png)
 
-    Add your screenshots in a /screenshots folder and update the paths above.
+### 🌙 Dark Mode
+![Light Screenshot](Light_Mode.png)
 
 ## 📄 License
 
